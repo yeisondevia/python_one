@@ -1,0 +1,20 @@
+## DATO DEL USUARIO
+n = int(input("Ingrese un número natural: "))
+
+## PRIMERA OPERACIÓN
+s1 = 0
+
+for i in range(n+1): 
+    s1 = s1 + i
+
+print(f'El resultado de S1 es: {s1}')
+
+## SEGUNDA OPERACIÓN
+s2 = int(n*(n + 1)/ 2)
+print(f'El resultado de S2 es: {s2} ')
+
+## CONDICIONAL DE IGUALDAD
+if s1 == s2:
+    print('Los resultados son iguales')
+else:
+    print('Los resultados son diferentes')
